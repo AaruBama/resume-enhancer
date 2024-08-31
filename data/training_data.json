@@ -1,0 +1,74 @@
+[
+    {
+        "text": "John Doe is proficient in Python, Java, and React.",
+        "entities": [
+            [26, 32, "SKILL"],
+            [34, 38, "SKILL"],
+            [44, 49, "SKILL"]
+        ]
+    },
+    {
+        "text": "Jane Smith has expertise in SQL, Docker, and Machine Learning.",
+        "entities": [
+            [28, 31, "SKILL"],
+            [33, 39, "SKILL"],
+            [45, 61, "SKILL"]
+        ]
+    },
+    {
+        "text": "Alice Johnson is skilled in JavaScript, TypeScript, and CSS.",
+        "entities": [
+            [28,38, "SKILL"],
+            [40, 50, "SKILL"],
+            [56, 59, "SKILL"]
+        ]
+    },
+    {
+        "text": "Bob has certifications in AWS, Azure, and Google Cloud.",
+        "entities": [
+        [26, 29, "SKILL"],
+        [31, 36, "SKILL"],
+        [42, 54, "SKILL"]
+    ]
+    },
+    {
+        "text": "Maria specializes in data analysis, machine learning, and AI.",
+        "entities": [
+            [21, 34, "SKILL"],
+            [36, 52, "SKILL"],
+            [58, 60, "SKILL"]
+        ]
+    },
+    {
+        "text": "Tom is proficient in C++, C#, and Ruby.",
+        "entities": [
+            [21, 24, "SKILL"],
+            [26, 28, "SKILL"],
+            [34, 38, "SKILL"]
+        ]
+    },
+    {
+        "text": "Sara has experience in HTML, CSS, and Java.",
+        "entities": [
+            [23, 27, "SKILL"],
+            [29, 32, "SKILL"],
+            [38,42, "SKILL"]
+        ]
+    },
+    {
+        "text": "David is an expert in React Native, Flutter, and Swift.",
+        "entities": [
+            [22, 34, "SKILL"],
+            [36, 43, "SKILL"],
+            [49, 54, "SKILL"]
+        ]
+    },
+    {
+        "text": "Emily has skills in PHP, Ruby on Rails, and Django.",
+        "entities": [
+            [20, 23, "SKILL"],
+            [25, 38, "SKILL"],
+            [44, 50, "SKILL"]
+        ]
+    }
+]

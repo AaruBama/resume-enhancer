@@ -46,7 +46,8 @@ def parse_resume(file_path):
         "phone": None,
         "skills": [],
         "experience": [],
-        "education": []
+        "education": [],
+        "certifications": []
     }
 
     # Split text into lines for easier processing
@@ -79,6 +80,8 @@ def parse_resume(file_path):
             parsed_data["experience"].append(line.strip())
         elif current_section == "education" and line.strip():
             parsed_data["education"].append(line.strip())
+        elif current_section == "certifications" and line.strip():
+            parsed_data["certifications"].append(line.strip())
 
     return parsed_data
 

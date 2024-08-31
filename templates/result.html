@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parsed Resume</title>
+</head>
+<body>
+    <h1>Parsed Resume</h1>
+    <p><strong>Name:</strong> {{ parsed_data.name }}</p>
+    <p><strong>Email:</strong> {{ parsed_data.email }}</p>
+    <p><strong>Phone:</strong> {{ parsed_data.phone }}</p>
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in parsed_data.skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Experience</h2>
+    <ul>
+        {% for exp in parsed_data.experience %}
+        <li>{{ exp }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Education</h2>
+    <ul>
+        {% for edu in parsed_data.education %}
+        <li>{{ edu }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Certifications</h2>
+    <ul>
+        {% for cert in parsed_data.certifications %}
+        <li>{{ cert }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
