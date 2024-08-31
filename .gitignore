@@ -1,0 +1,63 @@
+venv/
+models/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Python virtual environments
+# If you are using a virtual environment, you may want to ignore it
+# Uncomment the following line if you are using virtualenv or venv
+# venv/
+
+# Environment variables file
+.env
+
+# Miscellaneous
+*.DS_Store
+*.coverage
+*.mypy_cache/
+*.pytest_cache/
+*.coverage.*
+*.pylint.d
+*.pytype/
+*.hypothesis/
+*.tox/
+*.coverage
+*.egg-info/
+*.egg
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# MacOS specific files
+.DS_Store
